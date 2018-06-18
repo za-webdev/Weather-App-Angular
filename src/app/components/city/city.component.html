@@ -1,0 +1,8 @@
+<div *ngIf='city'>
+
+<h1>{{city.name}}</h1>
+<h3>Average Temp: {{city.main.temp}}</h3>
+<h3>Max Temp: {{city.main.temp_max}}</h3>
+<h3>Min Temp: {{city.main.temp_min}}</h3>
+<h3>Status: {{city.weather[0].description}}</h3>
+</div>
